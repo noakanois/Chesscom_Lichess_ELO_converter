@@ -1,9 +1,9 @@
+# Chesscom Lichess ELO converter
 ## Webapp/Dashboard: 
-# https://share.streamlit.io/noakanois/elo_converter
+## https://share.streamlit.io/noakanois/elo_converter
 
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
 
-# Chesscom Lichess ELO converter
 
 TL:DR:
 Scrapes User Data from Lichess and Chesscom. Cleans and transforms the Data to create a prediction for an ELO Rating conversion between websites and time controls. 
