@@ -7,7 +7,7 @@ Below is a little dashboard to explore the converter. This repo does all the dat
 ### https://share.streamlit.io/noakanois/elo_converter
 
 
-![gif](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/gifs/streamlit-showcase.gif?raw=true)
+![gif](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/streamlit-showcase.gif?raw=true)
 )
 
 ## Webapp/Dashboard: 
@@ -30,6 +30,6 @@ In general, it is usually said that Lichess ratings are 200-300 higher than ches
 Gathering the data:
 Here are the basics of the ELT Pipeline
 
-![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/ELT2.png?raw=true)
+![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/ELT3.png?raw=true)
 
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
