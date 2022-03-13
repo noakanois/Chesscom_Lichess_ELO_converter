@@ -1,8 +1,9 @@
-## Webapp: https://share.streamlit.io/noakanois/elo_converter
+# Chesscom Lichess ELO converter
+## Webapp/Dashboard: 
+## https://share.streamlit.io/noakanois/elo_converter
 
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
 
-# Chesscom Lichess ELO converter
 
 TL:DR:
 Scrapes User Data from Lichess and Chesscom. Cleans and transforms the Data to create a prediction for an ELO Rating conversion between websites and time controls. 
@@ -18,5 +19,4 @@ If two players play each other, the person with the higher ELO Rating is predict
 ELO Differences between Chesscom/Lichess:
 The ELO system is a closed system, meaning the ELO ratings of both websites are entirely independent. They both use a slightly different implementation, but nothing too major. This, as well as the player base, lead to a difference in ELO distributions on both sites.
 For example: My peak ELO on Lichess Bullet is 2225, on chesscom it is 2001. However I use Lichess mainly so my chesscom rating is more inaccurate.
-
 In general, it is usually said that Lichess ratings are 200-300 higher than chesscom ELO ratings.
