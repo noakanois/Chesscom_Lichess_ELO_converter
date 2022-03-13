@@ -37,4 +37,6 @@ If I did this again, I would spend more time in the pipeline planning stage. It 
 
 # Analysis
 
+[Take a look at this Notebook for some charts](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/plots.ipynb), alternatively look into the [images folder](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/tree/master/images)
+
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
