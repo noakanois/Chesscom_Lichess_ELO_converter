@@ -27,8 +27,10 @@ In general, it is usually said that Lichess ratings are 200-300 higher than ches
 
 ### Gathering the data:
 Here are the basics of the ELT Pipeline I used. 
+
 ![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/ELT3.png?raw=true)
+
 I wasn't quite sure what kind of data I was going to use and what exactly I was going to do with it, so I decided to go with an ELT Pipeline. That way I didn't prematurely get rid of any Data I might want to use later. 
-When i was first prototyping it, I had used an ETL Pipeline, but quickly realized ELT was just more efficient here. 
+When i was first prototyping it I had used an ETL Pipeline, but quickly realized that ELT was just more efficient here. 
 
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
