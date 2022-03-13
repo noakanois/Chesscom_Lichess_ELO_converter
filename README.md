@@ -1,5 +1,7 @@
 ## Webapp: https://share.streamlit.io/noakanois/elo_converter
 
+[test](/images/blitz/full_blitz-blitz.png)
+
 # Chesscom Lichess ELO converter
 
 TL:DR:
