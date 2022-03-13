@@ -1,1 +1,7 @@
 elo_download/api_keys.py
+rating_DB.sqlite
+files/usernames/chess_users_bronze.txt
+files/usernames/chess_users_wood.txt
+files/usernames/chess_users_stone.txt
+files/usernames/userlist_chesscom_v1.txt
+files/usernames/userlist_lichess_v1.txt
