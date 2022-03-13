@@ -30,6 +30,6 @@ In general, it is usually said that Lichess ratings are 200-300 higher than ches
 Gathering the data:
 Here are the basics of the ELT Pipeline
 
-![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/gifs/ELT.png?raw=true)
+![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/ELT2.png?raw=true)
 
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
