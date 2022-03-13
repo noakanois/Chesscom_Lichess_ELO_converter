@@ -33,4 +33,8 @@ Here are the basics of the ELT Pipeline I used.
 I wasn't quite sure what kind of data I was going to use and what exactly I was going to do with it, so I decided to go with an ELT Pipeline. That way I didn't prematurely get rid of any Data I might want to use later. 
 When i was first prototyping it I had used an ETL Pipeline, but quickly realized that ELT was just more efficient here. 
 
+If I did this again, I would spend more time in the pipeline planning stage. It would have saved me a lot of time if I had realized going full ELT here was the right move. I was too stuck on the goal I wanted to achieve and did not realize that there would potentially be more things to explore with this Data.
+
+# Analysis
+
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
