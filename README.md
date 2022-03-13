@@ -44,3 +44,5 @@ This plot shows the correlation between the Lichess Blitz Rating and the Chessco
 
 As this Data is really packed with a lot of points, I have represented this data in hex plots as well. Showing a clear correlation. This Data should lead to a great model. 
 ![hex](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/hex/hex_blitz_1.png?raw=true)
+
+![rd](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/rd/rd_col.png?raw=true)
