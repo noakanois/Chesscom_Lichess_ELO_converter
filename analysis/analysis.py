@@ -93,10 +93,6 @@ class ELO():
         dict = {x_name:x,f"predicted_{y_name}":y}
         return pd.DataFrame(dict)
     
-rating = ELO("rating_DB.sqlite")
-df = rating.fullfull_table()
-
-game_mode = ["li_bullet", "li_blitz", "li_rapid", "ch_bullet", "ch_blitz", "ch_rapid"]
-
-for mode in tqdm(game_mode):
-    rating.predict_table(mode).to_csv(f"{mode}_predict.csv")
+    
+if __name__ == "__main__":
+    pass

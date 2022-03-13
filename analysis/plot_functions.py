@@ -1,12 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from elo import ELO
+from analysis import ELO
 
 head = ["ch_bullet", "ch_blitz", "ch_rapid", "li_bullet", "li_blitz", "li_rapid"]
 dict_head = {"ch_bullet":"Chesscom Bullet", "ch_blitz":"Chesscom Blitz", "ch_rapid":"Chesscom Rapid", "li_bullet":"Lichess Bullet", "li_blitz":"Lichess Blitz", "li_rapid":"Lichess Rapid"}
 dict_web = {"li":"Lichess","ch":"Chesscom","full":"Full"}
 
-db = "/Users/Noah/Documents/Python Scripts/Chess-Rating/rating_DB.sqlite"
+db = "rating_DB.sqlite"
 
 rating_li = ELO(db)
 data_li = rating_li.full_table("li")
@@ -107,7 +107,7 @@ def hex2(x_name="li_blitz", y_name="ch_blitz", rds=50):
     plt.show()
     
     
-plot_predict("li_blitz", "ch_blitz", "li", "blue", rds=60, difs=800, typ="user")
+"""plot_predict("li_blitz", "ch_blitz", "li", "blue", rds=60, difs=800, typ="user")
 plot_predict("li_blitz", "ch_blitz", "ch", "red", rds=60, difs=800, typ="user")
 plot_predict("li_blitz", "ch_blitz", "full", "green", rds=60, difs=800, typ="user")
-plt.show()
+plt.show()"""
