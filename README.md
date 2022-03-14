@@ -27,7 +27,7 @@ In general, it is usually said that Lichess ratings are 200-300 higher than ches
 ### Gathering the data:
 Here are the basics of the ELT Pipeline I used. 
 
-### pipeline
+### Pipeline
 ![ELT](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/ELT3.png?raw=true)
 
 I wasn't quite sure what kind of data I was going to use and what exactly I was going to do with it, so I decided to go with an ELT Pipeline. That way I didn't prematurely get rid of any Data I might want to use later. 
@@ -53,13 +53,13 @@ As this data is really packed with a lot of points, I have represented this data
 My main “tools” to filter the data were to limit the rd (rating deviation) to 45, which is the minimum. I did this, because I had so many data points, meaning I could go heavy on the filtering, and so that I would only get values for people which play recently on both sites. All models/cleaning tools have filtering options, so the limit can be set custom.
 
 Here is a little plot showing the difference in the “dirtiness” of the datasets. 
-### rd
+### Difference in RD
 ![rd](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/rd/rd_col.png?raw=true)
 
 The other is the differential. That means for example if someone had a 2000 Lichess Blitz, but a 1000 Chesscom Blitz rating, then I would remove them. This gap is just too big to take as a valid data point. It could be that the user is inactive on the one page and wasn’t caught by the rd filter somehow or more likely that even though the username is the same, the people who play on the accounts are different.
 
 Here is the relevant graph. This graph shows the different predicted values when going from Lichess Blitz -> Chesscom Blitz
-### differentials
+### Differentials
 ![diff](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/prediction%20impact/impact_diff.png?raw=true)
 
 This led me to set the standard differential to 500-800. This doesn’t impact the bottom line of the predictor, but it smoothed out the edges where there are less valid data points. 
