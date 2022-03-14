@@ -19,6 +19,7 @@ https://share.streamlit.io/noakanois/elo_converter
 2. [Pipeline](#pipeline)
 3. [Analysis](#analysis)
 4. [Filtering](#filtering)
+5. [Quick Conclusions](#quick-conclusions)
 
 
 # Introduction
@@ -77,3 +78,10 @@ Here is the relevant graph. This graph shows the different predicted values when
 ![diff](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/prediction%20impact/impact_diff.png?raw=true)
 
 This led me to set the standard differential to 500-800. This doesn’t impact the bottom line of the predictor, but it smoothed out the edges where there are less valid data points. 
+
+# Quick-Conclusions
+
+- Lichess ELO Ratings are on about 200-300 ELO higher than Chesscom ratings. The lower the ELO, the bigger the gap. Once we reach 2000 ELO it gets smaller and smaller quite quickly until Chesscom Ratings get higher once we reach Super GM level at about 2900
+- Rapid Ratings are inflated (200 higher than Blitz Ratings)
+- Bullet Ratings are the lowest across the board (about 100-200 below Blitz Ratings), here again the lower we go, the bigger the difference
+- It is possible to randomly scrape usernames and then get useful data by assuming two usernames with the same name are from the same person.
