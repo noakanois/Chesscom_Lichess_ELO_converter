@@ -13,6 +13,16 @@ Below is a little dashboard to explore the converter. This repo does all the dat
 
 https://share.streamlit.io/noakanois/elo_converter
 
+## Table Of Contents
+
+1. [Introduction](#introduction)
+2. [Pipeline](#pipeline)
+3. [Analysis](#analysis)
+4. [Filtering](#filtering)
+
+
+# Introduction
+
 ### Motivation:
 The difference of ELO between Lichess and Chesscom is something that is often discussed. So
 I wanted to find out if it is possible to build an ELO converter based on a huge amount of scraped Data from Lichess and Chesscom was possible. 
@@ -26,6 +36,7 @@ The ELO system is a closed system, meaning the ELO ratings of both websites are 
 For example: My peak ELO on Lichess Bullet is 2225, on chesscom it is 2001. However, I use Lichess mainly so my chesscom rating is more inaccurate.
 In general, it is usually said that Lichess ratings are 200-300 higher than chesscom ELO ratings.
 
+# Pipeline
 
 ### Gathering the data:
 Here are the basics of the ELT Pipeline I used. 
