@@ -21,7 +21,7 @@ If two players play each other, the person with the higher ELO Rating is predict
 
 ### ELO Differences between Chesscom/Lichess:
 The ELO system is a closed system, meaning the ELO ratings of both websites are entirely independent. They both use a slightly different implementation, but nothing too major. This, as well as the player base, lead to a difference in ELO distributions on both sites.
-For example: My peak ELO on Lichess Bullet is 2225, on chesscom it is 2001. However I use Lichess mainly so my chesscom rating is more inaccurate.
+For example: My peak ELO on Lichess Bullet is 2225, on chesscom it is 2001. However, I use Lichess mainly so my chesscom rating is more inaccurate.
 In general, it is usually said that Lichess ratings are 200-300 higher than chesscom ELO ratings.
 
 
@@ -42,7 +42,12 @@ If I did this again, I would spend more time in the pipeline planning stage. It 
 This plot shows the correlation between the Lichess Blitz Rating and the Chesscom Blitz Rating from all the users I scraped. When I first saw this I was really happy, as I wasn’t sure if my method would work, if there would be any correlation at all. There is a clear line forming under the bisector. There was filtering and cleanup already applied to the data.
 ![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
 
-As this Data is really packed with a lot of points, I have represented this data in hex plots as well. Showing a clear correlation. This Data should lead to a great model. 
+As this data is really packed with a lot of points, I have represented this data in hex plots as well. Showing a clear correlation. This data should lead to a great model. 
 ![hex](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/hex/hex_blitz_1.png?raw=true)
 
+# Filtering
+
+My main “tools” to filter the data were to limit the rd (rating deviation) to 45, which is the minimum. I did this, because I had so many data points, meaning I could go heavy on the filtering, and so that I would only get values for people which play recently on both sites. 
+
+Here is a little plot showing the difference in the “dirtiness” of the datasets. 
 ![rd](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/rd/rd_col.png?raw=true)
