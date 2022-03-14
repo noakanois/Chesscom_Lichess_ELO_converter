@@ -8,6 +8,7 @@ Below is a little dashboard to explore the converter. This repo does all the dat
 
 ![gif](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/streamlit-showcase.gif?raw=true)
 )
+https://share.streamlit.io/noakanois/elo_converter
 
 ### Motivation:
 The difference of ELO between Lichess and Chesscom is something that is often discussed. So
