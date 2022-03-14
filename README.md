@@ -1,5 +1,7 @@
 # Chesscom Lichess ELO converter
 
+Work in Progress
+
 ### TL:DR:
 Scrapes user data from Lichess and Chesscom. Cleans and transforms the data to create a prediction for an ELO Rating conversion between websites and time controls. 
 Below is a little dashboard to explore the converter. This repo does all the data extraction/transforming and calculating. 
