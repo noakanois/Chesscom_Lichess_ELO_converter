@@ -4,11 +4,7 @@
 Scrapes user data from Lichess and Chesscom. Cleans and transforms the data to create a prediction for an ELO Rating conversion between websites and time controls. 
 Below is a little dashboard to explore the converter. This repo does all the data extraction/transforming and calculating. 
 
-Checkout the dashboard below.
-
-## Dashboard
-### https://share.streamlit.io/noakanois/elo_converter
-
+## [Checkout the dashboard/website](https://share.streamlit.io/noakanois/elo_converter)
 
 ![gif](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/readme/streamlit-showcase.gif?raw=true)
 )
