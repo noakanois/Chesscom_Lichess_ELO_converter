@@ -1,5 +1,7 @@
 # Chesscom Lichess ELO converter
 
+Thanks to [SysAdmLS](https://github.com/SysAdmLS) for discussion this whole project with me daily. And great contribution/help on the username scraper. 
+
 Work in Progress
 If you have any suggestions then feel free to contact me / open an issue.
 
