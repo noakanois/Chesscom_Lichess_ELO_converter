@@ -59,7 +59,7 @@ If I did this again, I would spend more time in the pipeline planning stage. It 
 
 This plot shows the correlation between the Lichess Blitz Rating and the Chesscom Blitz Rating from all the users I scraped. When I first saw this I was really happy, as I wasn’t sure if my method would work, if there would be any correlation at all. There is a clear line forming under the bisector. There was filtering and cleanup already applied to the data.
 ### Blitz - Blitz
-![Blitz](https://raw.githubusercontent.com/noakanois/Chesscom_Lichess_ELO_converter/master/images/blitz/full_blitz-blitz.png)
+![Blitz](https://github.com/noakanois/Chesscom_Lichess_ELO_converter/blob/master/images/blitz/full_blitz-blitz.png)
 
 As this data is really packed with a lot of points, I have represented this data in hex plots as well. Showing a clear correlation. This data should lead to a great model. 
 ### HEX Blitz - Blitz
